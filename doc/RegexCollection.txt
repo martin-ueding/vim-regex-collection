@@ -1,0 +1,22 @@
+*RegexCollection.txt*	Collection of regular expressions and refactoring
+tools.
+
+RegexCollection												*RegexCollection*
+
+|ExpandDisplayMath|
+
+==============================================================================
+
+*ExpandDisplayMath*
+
+Makes space around a display math expression. Before: >
+
+	\[ … \]
+
+After: >
+
+	\[
+		…
+	\]
+
+vim: ft=help
