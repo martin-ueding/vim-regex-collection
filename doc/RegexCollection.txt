@@ -22,6 +22,8 @@ After: >
 
     \inner{\vec a}{\vec b}
 
+This is only available for filetype "tex".
+
 ==============================================================================
 
 *RegexCollection-ExpandDisplayMath*
@@ -37,6 +39,8 @@ After: >
 	\[
 		…
 	\]
+
+This is only available for filetype "tex".
 
 ==============================================================================
 
