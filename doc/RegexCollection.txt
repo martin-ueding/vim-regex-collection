@@ -3,7 +3,9 @@
 RegexCollection						*RegexCollection*
 
 |RegexCollection-ConvertInnerProduct|
+|RegexCollection-DeleteMultipleNewlines|
 |RegexCollection-ExpandDisplayMath|
+|RegexCollection-TrimWhitespaceAtEnd|
 
 ==============================================================================
 
@@ -26,6 +28,13 @@ This is only available for filetype "tex".
 
 ==============================================================================
 
+*RegexCollection-DeleteMultipleNewlines*
+
+Remove all blank lines, if there are more than two. It will leave a single
+blank line.
+
+==============================================================================
+
 *RegexCollection-ExpandDisplayMath*
 
 Makes space around a display math expression.
@@ -41,6 +50,12 @@ After: >
 	\]
 
 This is only available for filetype "tex".
+
+==============================================================================
+
+*RegexCollection-TrimWhitespaceAtEnd*
+
+Remove all trailing whitespace.
 
 ==============================================================================
 
