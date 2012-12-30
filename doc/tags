@@ -1,3 +1,6 @@
-ExpandDisplayMath	RegexCollection.txt	/*ExpandDisplayMath*
 RegexCollection	RegexCollection.txt	/*RegexCollection*
+RegexCollection-ConvertInnerProduct	RegexCollection.txt	/*RegexCollection-ConvertInnerProduct*
+RegexCollection-DeleteMultipleNewlines	RegexCollection.txt	/*RegexCollection-DeleteMultipleNewlines*
+RegexCollection-ExpandDisplayMath	RegexCollection.txt	/*RegexCollection-ExpandDisplayMath*
+RegexCollection-TrimWhitespaceAtEnd	RegexCollection.txt	/*RegexCollection-TrimWhitespaceAtEnd*
 RegexCollection.txt	RegexCollection.txt	/*RegexCollection.txt*
