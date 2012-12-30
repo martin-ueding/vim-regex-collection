@@ -8,5 +8,8 @@ function! TrimWhitespaceAtEnd()
 	:%s/\v\s+$//<CR>
 endfunction
 
-menu Plugin.Regex\ Collection.Trim\ Whitespace\ At\ End :call TrimWhitespaceAtEnd()<CR>
 menu Plugin.Regex\ Collection.Delete\ Multiple\ Newlines :call DeleteMultipleNewlines()<CR>
+menu Plugin.Regex\ Collection.Trim\ Whitespace\ At\ End :call TrimWhitespaceAtEnd()<CR>
+
+menu RCDeleteMultipleNewlines :call DeleteMultipleNewlines()<CR>
+menu RCTrimWhitespaceAtEnd :call TrimWhitespaceAtEnd()<CR>
