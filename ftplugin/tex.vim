@@ -5,7 +5,7 @@ function! ConvertInnerProduct()
 endfunction
 
 function! ExpandDisplayMath()
-	:%s/\v^(\s*)(\\\[)(.*)(\\\])/\1\2\r\1	\3\r\1\4/g
+	:%s/\v^(\s*)(\\\[)\s*(.{-})\s*(\\\])/\1\2\r\1	\3\r\1\4/g
 endfunction
 
 menu Plugin.RegexCollection.ExpandDisplayMath :call ExpandDisplayMath()<CR>
