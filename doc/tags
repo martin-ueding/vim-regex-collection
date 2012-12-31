@@ -3,4 +3,5 @@ RegexCollection-ConvertInnerProduct	RegexCollection.txt	/*RegexCollection-Conver
 RegexCollection-DeleteMultipleNewlines	RegexCollection.txt	/*RegexCollection-DeleteMultipleNewlines*
 RegexCollection-ExpandDisplayMath	RegexCollection.txt	/*RegexCollection-ExpandDisplayMath*
 RegexCollection-TrimWhitespaceAtEnd	RegexCollection.txt	/*RegexCollection-TrimWhitespaceAtEnd*
+RegexCollection-UnescapeUmlauts	RegexCollection.txt	/*RegexCollection-UnescapeUmlauts*
 RegexCollection.txt	RegexCollection.txt	/*RegexCollection.txt*

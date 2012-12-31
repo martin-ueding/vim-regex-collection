@@ -6,6 +6,7 @@ RegexCollection						*RegexCollection*
 |RegexCollection-DeleteMultipleNewlines|
 |RegexCollection-ExpandDisplayMath|
 |RegexCollection-TrimWhitespaceAtEnd|
+|RegexCollection-UnescapeUmlauts|
 
 ==============================================================================
 
@@ -56,6 +57,20 @@ This is only available for filetype "tex".
 *RegexCollection-TrimWhitespaceAtEnd*
 
 Remove all trailing whitespace.
+
+==============================================================================
+
+*RegexCollection-UnescapeUmlauts*
+
+Converts escaped umlauts to their actual characters.
+
+Before: >
+
+    W"orter
+
+After: >
+
+    Wörter
 
 ==============================================================================
 
