@@ -9,12 +9,14 @@ function! ExpandDisplayMath()
 endfunction
 
 function! UnescapeUmlauts()
-	:%s/\v"a/ä/g
-	:%s/\v"A/Ä/g
-	:%s/\v"o/ö/g
-	:%s/\v"O/Ö/g
-	:%s/\v"u/ü/g
-	:%s/\v"U/Ü/g
+	:%s/\v\\?"a/ä/g
+	:%s/\v\\?"A/Ä/g
+	:%s/\v\\?"o/ö/g
+	:%s/\v\\?"O/Ö/g
+	:%s/\v\\?"u/ü/g
+	:%s/\v\\?"U/Ü/g
+	:%s/\V{\\ss}/ß/g
+	:%s/\V\\ss{}/ß/g
 endfunction
 
 menu Plugin.Regex\ Collection.Convert\ Inner\ Product :call ConvertInnerProduct()<CR>
