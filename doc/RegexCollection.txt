@@ -2,6 +2,7 @@
 
 RegexCollection						*RegexCollection*
 
+|:RCConvertInlineMath|
 |:RCConvertInnerProduct|
 |:RCDeleteMultipleNewlines|
 |:RCExpandDisplayMath|
@@ -10,7 +11,15 @@ RegexCollection						*RegexCollection*
 
 ==============================================================================
 
-*RegexCollection-ConvertInnerProduct*
+*:RCConvertInlineMath*
+
+Converts the "\( ... \)" form of inline math into the "$ ... $" form of
+inline math.
+
+This is only available for filetype "tex".
+
+==============================================================================
+
 *:RCConvertInnerProduct*
 
 Converts an inner product so that it uses the "\inner" command. The command
