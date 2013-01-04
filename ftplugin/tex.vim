@@ -21,7 +21,7 @@ endfunction
 
 menu Plugin.Regex\ Collection.Convert\ Inner\ Product :call ConvertInnerProduct()<CR>
 menu Plugin.Regex\ Collection.Expand\ Display\ Math :call ExpandDisplayMath()<CR>
-menu Plugin.Regex\ Collection.UnescapeUmlauts :call UnescapeUmlauts()<CR>
+menu Plugin.Regex\ Collection.Unescape\ Umlauts :call UnescapeUmlauts()<CR>
 
 command! RCConvertInnerProduct :call ConvertInnerProduct()<CR>
 command! RCExpandDisplayMath :call ExpandDisplayMath()<CR>
