@@ -1,7 +1,8 @@
+:RCConvertInlineMath	RegexCollection.txt	/*:RCConvertInlineMath*
+:RCConvertInnerProduct	RegexCollection.txt	/*:RCConvertInnerProduct*
+:RCDeleteMultipleNewlines	RegexCollection.txt	/*:RCDeleteMultipleNewlines*
+:RCExpandDisplayMath	RegexCollection.txt	/*:RCExpandDisplayMath*
+:RCTrimWhitespaceAtEnd	RegexCollection.txt	/*:RCTrimWhitespaceAtEnd*
+:RCUnescapeUmlauts	RegexCollection.txt	/*:RCUnescapeUmlauts*
 RegexCollection	RegexCollection.txt	/*RegexCollection*
-RegexCollection-ConvertInnerProduct	RegexCollection.txt	/*RegexCollection-ConvertInnerProduct*
-RegexCollection-DeleteMultipleNewlines	RegexCollection.txt	/*RegexCollection-DeleteMultipleNewlines*
-RegexCollection-ExpandDisplayMath	RegexCollection.txt	/*RegexCollection-ExpandDisplayMath*
-RegexCollection-TrimWhitespaceAtEnd	RegexCollection.txt	/*RegexCollection-TrimWhitespaceAtEnd*
-RegexCollection-UnescapeUmlauts	RegexCollection.txt	/*RegexCollection-UnescapeUmlauts*
 RegexCollection.txt	RegexCollection.txt	/*RegexCollection.txt*
