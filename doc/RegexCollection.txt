@@ -2,15 +2,16 @@
 
 RegexCollection						*RegexCollection*
 
-|RegexCollection-ConvertInnerProduct|
-|RegexCollection-DeleteMultipleNewlines|
-|RegexCollection-ExpandDisplayMath|
-|RegexCollection-TrimWhitespaceAtEnd|
-|RegexCollection-UnescapeUmlauts|
+|:RCConvertInnerProduct|
+|:RCDeleteMultipleNewlines|
+|:RCExpandDisplayMath|
+|:RCTrimWhitespaceAtEnd|
+|:RCUnescapeUmlauts|
 
 ==============================================================================
 
 *RegexCollection-ConvertInnerProduct*
+*:RCConvertInnerProduct*
 
 Converts an inner product so that it uses the "\inner" command. The command
 should be defined like so: >
@@ -29,14 +30,14 @@ This is only available for filetype "tex".
 
 ==============================================================================
 
-*RegexCollection-DeleteMultipleNewlines*
+*:RCDeleteMultipleNewlines*
 
 Remove all blank lines, if there are more than two. It will leave a single
 blank line.
 
 ==============================================================================
 
-*RegexCollection-ExpandDisplayMath*
+*:RCExpandDisplayMath*
 
 Makes space around a display math expression.
 
@@ -54,13 +55,13 @@ This is only available for filetype "tex".
 
 ==============================================================================
 
-*RegexCollection-TrimWhitespaceAtEnd*
+*:RCTrimWhitespaceAtEnd*
 
 Remove all trailing whitespace.
 
 ==============================================================================
 
-*RegexCollection-UnescapeUmlauts*
+*:RCUnescapeUmlauts*
 
 Converts escaped umlauts to their actual characters.
 
