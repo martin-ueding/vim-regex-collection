@@ -1,4 +1,9 @@
-" Copyright © 2012 Martin Ueding <dev@martin-ueding.de>
+" Copyright © 2012-2013 Martin Ueding <dev@martin-ueding.de>
+
+function! ConvertInlineMath()
+	:%s/\v\\\(/$/g
+	:%s/\v\\\)/$/g
+endfunction
 
 function! ConvertInnerProduct()
 	:%s/\v\\left\s*\\langle\s*([^,]{-})\s*,\s*([^,]{-})\s*\\right\s*\\rangle/\\inner{\1}{\2}/gc
@@ -19,10 +24,12 @@ function! UnescapeUmlauts()
 	:%s/\V\\ss{}/ß/g
 endfunction
 
+menu Plugin.Regex\ Collection.Convert\ Inline\ Math :call ConvertInlineMath()<CR>
 menu Plugin.Regex\ Collection.Convert\ Inner\ Product :call ConvertInnerProduct()<CR>
 menu Plugin.Regex\ Collection.Expand\ Display\ Math :call ExpandDisplayMath()<CR>
 menu Plugin.Regex\ Collection.Unescape\ Umlauts :call UnescapeUmlauts()<CR>
 
+command! RCConvertInlineMath :call ConvertInlineMath()<CR>
 command! RCConvertInnerProduct :call ConvertInnerProduct()<CR>
 command! RCExpandDisplayMath :call ExpandDisplayMath()<CR>
 command! RCUnescapeUmlauts :call UnescapeUmlauts()<CR>
