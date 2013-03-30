@@ -100,6 +100,8 @@ After: >
 
     Wörter
 
+This is only available for filetype "tex".
+
 ==============================================================================
 
 *:RCUppercaseApostropheNames*
