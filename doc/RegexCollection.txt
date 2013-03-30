@@ -4,10 +4,13 @@ RegexCollection						*RegexCollection*
 
 |:RCConvertInlineMath|
 |:RCConvertInnerProduct|
+|:RCConvertOrdinaryDerivatives|
 |:RCDeleteMultipleNewlines|
 |:RCExpandDisplayMath|
+|:RCInsertApostropheIntoNames|
 |:RCTrimWhitespaceAtEnd|
 |:RCUnescapeUmlauts|
+|:RCUppercaseApostropheNames|
 
 ==============================================================================
 
@@ -39,6 +42,15 @@ This is only available for filetype "tex".
 
 ==============================================================================
 
+*:RCConvertOrdinaryDerivatives*
+
+Converts an ordinary derivative that is written with a "\frac" command into
+the "\dod" command.
+
+This is only available for filetype "tex".
+
+==============================================================================
+
 *:RCDeleteMultipleNewlines*
 
 Remove all blank lines, if there are more than two. It will leave a single
@@ -64,6 +76,12 @@ This is only available for filetype "tex".
 
 ==============================================================================
 
+*:RCInsertApostropheIntoNames*
+
+Finds "Newtonsche" and converts it into "Newton'sche".
+
+==============================================================================
+
 *:RCTrimWhitespaceAtEnd*
 
 Remove all trailing whitespace.
@@ -81,6 +99,12 @@ Before: >
 After: >
 
     Wörter
+
+==============================================================================
+
+*:RCUppercaseApostropheNames*
+
+Finds names like "newton'sche" and converts them to "Newton'sche".
 
 ==============================================================================
 
