@@ -6,8 +6,8 @@ menu Plugin.Regex\ Collection.Convert\ Ordinary\ Derivatives :call regexcollecti
 menu Plugin.Regex\ Collection.Expand\ Display\ Math :call regexcollection#ExpandDisplayMath()<CR>
 menu Plugin.Regex\ Collection.Unescape\ Umlauts :call regexcollection#UnescapeUmlauts()<CR>
 
-command! RCConvertInlineMath :call regexcollection#ConvertInlineMath()<CR>
-command! RCConvertInnerProduct :call regexcollection#ConvertInnerProduct()<CR>
-command! RCConvertOrdinaryDerivatives :call regexcollection#ConvertOrdinaryDerivatives()<CR>
-command! RCExpandDisplayMath :call regexcollection#ExpandDisplayMath()<CR>
-command! RCUnescapeUmlauts :call regexcollection#UnescapeUmlauts()<CR>
+command! RCConvertInlineMath :call regexcollection#ConvertInlineMath()
+command! RCConvertInnerProduct :call regexcollection#ConvertInnerProduct()
+command! RCConvertOrdinaryDerivatives :call regexcollection#ConvertOrdinaryDerivatives()
+command! RCExpandDisplayMath :call regexcollection#ExpandDisplayMath()
+command! RCUnescapeUmlauts :call regexcollection#UnescapeUmlauts()
