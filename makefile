@@ -1,5 +1,11 @@
 # Copyright © 2013 Martin Ueding <dev@martin-ueding.de>
 
+all: doc/tags
+
+install:
+	install -d "$(DESTDIR)/etc/vim"
+	cp -r autoload doc ftplugin plugin "$(DESTDIR)/etc/vim/"
+
 doc/tags: doc/*.txt
 	vim -c 'helptags doc | q'
 
