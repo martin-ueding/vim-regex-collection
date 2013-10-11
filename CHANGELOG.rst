@@ -5,6 +5,9 @@
 Changelog
 #########
 
+v1.1.1
+    - Rename to avoid conflicts
+
 v1.1
     - **Added**: ``:UnescapeUmlauts``
     - **Added**: ``make install``
