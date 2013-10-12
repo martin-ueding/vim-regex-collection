@@ -5,6 +5,9 @@
 Changelog
 #########
 
+v1.2
+    - Remove ``doc/tags`` file
+
 v1.1.2
     - Do not build tags
 
