@@ -5,6 +5,9 @@
 Changelog
 #########
 
+v1.1.2
+    - Do not build tags
+
 v1.1.1
     - Rename to avoid conflicts
 
